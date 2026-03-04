@@ -1,0 +1,17 @@
+services:
+  chat:
+    build: .
+    ports:
+      - "8080:8080"   # HTTP (SPA)
+      - "8765:8765"   # WebSocket
+    volumes:
+      - chat_data:/app/data
+    environment:
+      DB_FILE: /app/data/chat.db
+      HTTP_HOST: "0.0.0.0"
+      WS_HOST: "0.0.0.0"
+      LOG_LEVEL: INFO
+    restart: unless-stopped
+
+volumes:
+  chat_data:
