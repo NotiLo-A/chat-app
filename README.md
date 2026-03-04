@@ -2,6 +2,12 @@
 
 Real-time chat running in the browser. Terminal-inspired UI, no external services — just a Python process and a SQLite file.
 
+## Screenshots
+
+![Chat](docs/screenshots/chat.png)
+
+![Auth](docs/screenshots/auth.png)
+
 ## Stack
 
 - **Frontend** — React 18, TypeScript, Vite
