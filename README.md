@@ -1,6 +1,6 @@
 # chat-app
 
-Real-time chat running in the browser. Terminal-inspired UI, no external services — just a Python process and a SQLite file.
+Real-time chat running in the browser. Terminal-inspired UI, no external services - just a Python process and a SQLite file.
 
 ## Screenshots
 
@@ -10,10 +10,10 @@ Real-time chat running in the browser. Terminal-inspired UI, no external service
 
 ## Stack
 
-- **Frontend** — React 18, TypeScript, Vite
-- **Backend** — Python 3.12, asyncio, websockets
-- **Database** — SQLite (WAL mode)
-- **Auth** — bcrypt password hashing
+- **Frontend** - React 18, TypeScript, Vite
+- **Backend** - Python 3.12, asyncio, websockets
+- **Database** - SQLite (WAL mode)
+- **Auth** - bcrypt password hashing
 
 ## Project layout
 
